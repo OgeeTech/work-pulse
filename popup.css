@@ -1,0 +1,129 @@
+body {
+  width: 320px;
+  margin: 0;
+  padding: 14px;
+  font-family:
+    -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  background-color: #f8fafc;
+  color: #0f172a;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 12px;
+}
+
+.brand {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.status-indicator {
+  width: 8px;
+  height: 8px;
+  background-color: #22c55e;
+  border-radius: 50%;
+  box-shadow: 0 0 6px #22c55e;
+}
+
+h3 {
+  margin: 0;
+  font-size: 14px;
+  font-weight: 700;
+  color: #1e293b;
+}
+
+#date-label {
+  font-size: 11px;
+  font-weight: 600;
+  color: #64748b;
+  background: #e2e8f0;
+  padding: 2px 8px;
+  border-radius: 4px;
+}
+
+.total-banner {
+  background: #1e293b;
+  color: #ffffff;
+  padding: 12px;
+  border-radius: 8px;
+  margin-bottom: 14px;
+  text-align: center;
+}
+
+.subtext {
+  font-size: 10px;
+  letter-spacing: 0.5px;
+  color: #94a3b8;
+  margin-bottom: 4px;
+}
+
+.main-time {
+  font-size: 20px;
+  font-weight: 700;
+  font-family: monospace;
+}
+
+.activity-section h4 {
+  font-size: 11px;
+  color: #475569;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  margin: 0 0 8px 0;
+}
+
+.domain-list {
+  max-height: 180px;
+  overflow-y: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  margin-bottom: 12px;
+}
+
+.domain-row {
+  background: white;
+  padding: 8px 10px;
+  border-radius: 6px;
+  border: 1px solid #e2e8f0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 12px;
+}
+
+.domain-name {
+  font-weight: 500;
+  max-width: 180px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.domain-duration {
+  font-family: monospace;
+  font-weight: 600;
+  color: #475569;
+}
+
+.btn {
+  width: 100%;
+  padding: 8px;
+  background: #0284c7;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-size: 11px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.loading {
+  text-align: center;
+  font-size: 11px;
+  color: #94a3b8;
+  padding: 10px;
+}
